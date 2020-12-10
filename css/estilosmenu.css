@@ -1,0 +1,42 @@
+  *{
+	margin:0;
+	padding:0;
+  }
+		
+  body{
+	background:url(../imagenes/fondo2.jpg);
+  }
+		
+  #nav{
+	margin:auto;
+	width:1000px;
+  }
+
+  ul{
+	list-style:none;
+  }
+		
+  .menu li a{
+	background-color:black;
+	color:white;
+	text-decoration:none;
+	padding:10px 15px;
+	display:block;
+  }
+
+ .menu > li{
+	float:left;
+ }
+		 
+ .menu li a:hover{
+	background-color:black;
+	color:blue;
+ }
+		 
+ .menu li ul{
+	display:none;
+ }
+		 
+ .menu li:hover > ul{
+	display:block;
+ }

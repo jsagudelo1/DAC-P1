@@ -1,0 +1,14 @@
+ body{
+
+	background-repeat: no-repeat;
+	background-image: url(../imagenes/logo.png);
+	background-position: 50% -30%;
+	overflow-x: hidden;
+	/*overflow-y: hidden;*/
+ }
+
+
+.card border-light mb-3 {
+	position: relative;
+	bottom:60%;
+}

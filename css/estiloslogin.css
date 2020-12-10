@@ -1,0 +1,78 @@
+ *{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+ }
+
+ body{
+  width: 100%;
+  
+  background:url(../imagenes/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+ form{
+
+	border-radius:50%;
+  margin-left: auto;
+  margin-right: auto;
+	width:100%;
+	background:#c0c0c0a8;
+	padding:10%;
+	border:2px solid rgba(0,0,0,0.1);
+
+ }
+	h2{
+	text-align:center;
+	margin-bottom:30px;
+	color:blue;
+	}
+
+    div{
+	text-align:center;
+	}
+
+ h1{
+	font-family:helvetica;
+	text-align:center;
+	margin-bottom:30px;
+	color:black;
+ }
+
+ tdb{
+	font-family:helvetica;
+	font-size:30px;
+	color:black;
+	margin-bottom:20px;
+ }
+
+ input{
+	display:block;
+	padding:10px;
+	width:100%;
+	margin-bottom:30px;
+	font-size:20px;
+	border:0;
+	border-radius:100px;
+ }
+
+ form .boton[type="submit"]{
+	background-color:white;
+	color:black;
+	margin-bottom:0;
+	border:0;
+	opacity:0.9;
+	cursor:pointer;
+	border-radius:20px;
+	margin-bottom:0;
+}
+.barra {
+	display:block;
+	padding:10px;
+	width:100%;
+	margin-bottom:30px;
+	font-size:20px;
+	border:0;
+	border-radius:100px;
+}
